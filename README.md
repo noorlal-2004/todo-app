@@ -6,7 +6,7 @@ A simple **ToDo App** built with **React Native, Expo, and Redux Toolkit** that 
 - Categorize tasks (Work, Personal, Study, etc.)  
 - Set **date & time reminders** with local push notifications  
 - Keep a **notification history** (saved in AsyncStorage)  
-- Track task completion with ✅ tick and ⏳ hourglass icons  
+- Track task completion 
 
 ---
 
