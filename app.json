@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/app.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.noor_lal.todo"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "39545f18-a625-4cee-81d2-de4c083ecac2"
+      }
     }
   }
 }

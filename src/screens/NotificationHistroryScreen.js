@@ -31,11 +31,15 @@ export default function NotificationHistoryScreen() {
 
     const foregroundSub = Notifications.addNotificationReceivedListener((notification) => {
       saveNotification(notification);
-    });
+    })
+    const responseSub = Notifications.addNotificationResponseReceivedListener((response) => {
+    saveNotification(response.notification);
+    })
 
     return () => {
       foregroundSub.remove();
-    };
+      responseSub.remove()
+    }
   }, []);
 
   return (
