@@ -36,7 +36,7 @@ A simple **ToDo App** built with **React Native, Expo, and Redux Toolkit** that 
 ## 📲 Installation & Setup
 
 1. Clone the repo:
-   git clone https://github.com/YOUR_USERNAME/todo-reminder-app.git
+   git clone https://github.com/noorlal-2004/todo-app.git
    cd todo-reminder-app
 2. Install dependencies:
    npm install
